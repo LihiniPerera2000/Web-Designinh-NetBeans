@@ -1,0 +1,242 @@
+<html>
+    <head>
+        <title> Dream Cakes - about </title>
+<!--        <link rel="stylesheet" type="text/css">-->
+    </head>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+            
+        }
+        h1{
+            font-size: 60;
+            font-family: Cursive;
+            text-align: center;
+            color: #0a0a0a;
+            padding: 0px;  
+        }
+        h2{
+            font-size: 24;
+            font-family: Cursive;
+            text-align: center;
+            color: #0a0a0a;
+            padding: 0px;  
+        }
+        h3{
+            font-size: 24;
+            font-family: Cursive;
+            text-align: center;
+            color: #0a0a0a;
+            padding: 10px;  
+        }
+        h4{
+            font-size: 36;
+            font-family: Cursive;
+            text-align: center;
+            color: #0a0a0a;
+            padding: 20px;  
+        }
+        h5{
+            font-size: 30;
+            font-family: Cursive;
+            text-align: left;
+            color: #0a0a0a;
+            padding: 20px;           
+        }
+        p1{
+            font-size: 22;
+            font-family: Cursive;
+            text-align: justify;
+            color: #0a0a0a;
+            padding: 20px; 
+        }
+        
+        nav{
+            background-color: #f0a1d5;
+            display: grid;
+            justify-content: center;
+        }
+        nav ul{
+            list-style-type: none;
+        }
+        nav ul a{
+            display: inline-flex;
+            padding: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #0a0a0a;
+            transition: 0.2s ease-in; 
+            font-size: 18px;
+        }
+        nav ul a:hover{
+            background-color: #ed51b9;
+            color: #fafafa;             
+        }
+        nav2 ul{
+            list-style-type: square;
+            margin-left: 150;
+            padding: 10px;
+            
+        }
+        nav2 ul li{
+            font-size: 20;
+            font-family: Cursive;
+            text-align: left;
+            color: #0a0a0a;
+            padding: 2px;     
+        }
+        #about{
+            margin-left: 100px;
+            margin-right: 100px;
+/*            background: url(./Images/aboutWallpaper.jpg)no-repeat center center/cover;*/
+            
+        }
+        #topic{
+            background: url(./Images/Wallpaper.jpg)no-repeat center center/cover;
+            opacity: 1;    
+        }
+        #topic img{
+            width: 17%;
+            height:30%;
+            margin: 0 auto;
+            display: block;
+        }   
+
+        #cakes{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            padding: 30px 20px;
+            column-gap: 20px;
+            row-gap:30px;
+        }
+        #cake img{
+            width: 100%;
+            height:80%;
+            border: outset;
+            border-color:#e6e3e5;
+            object-fit: cover;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+        #cake img:hover{
+            transform: rotateY(10deg);
+            transform-style: preserve-3d;
+        }
+        #cake h4{
+            padding: 15px;
+            text-align: center;
+            font-size: 18;
+        }
+        #cake button{
+            font-size: 20px;
+            display: block;
+            margin: 0 auto;
+            padding: 5px 30px;
+            border: none;
+            outline: none;
+            background-color: #080708;
+            color: #fcfafc;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: 0.2s all;
+        }
+        #cake button:hover{
+            transform: scale(1.06);
+        }
+        #cakeshop01{
+            float: right;
+            width: 40%;
+            height:40%;
+            margin: 0 auto;
+            display: block;
+        }
+        #cakeshop02{
+            float: right;
+            width: 40%;
+            height:40%;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+    
+    <body>
+        <section id ='topic'>
+        <img src ="./Images/logo.png">    
+        <h1> Dream Cakes </h1>
+        <h2>...A ready to eat slice of heaven...</h2>
+        
+        <h3>Since 1991, we have strived to provide fresh and high quality baked goods for the Southern California area.<br>
+                So please enjoy...This is our heritage.</h3>
+        </section>
+        
+        <nav>
+            <ul>
+                <a href ="index.html"><li>Home</li></a>
+                <a href ="about.html"><li>About</li></a>
+                <a href ="product.html"><li>Product</li></a>
+                <a href ="contact.html"><li>Contact</li></a>
+            </ul>
+        </nav>
+        
+        <section id="about">
+            <h4> Traditional & Delicious cakes <br> Since 1991</h4>  
+        <h5> About us </h5>
+        <img id = "cakeshop01"src ="./Images/AboutUs/cakeshop01.jpg">
+        
+        <p1> 
+            Dream Cakes has earned a well-known name as a high-quality cake manufacturer throughout the state since 1991.
+            It is a little-known secret that this establishment produces cakes of various types, shapes, colors and delicious flavors.
+            Because of the high-quality ingredients used for the production of cakes, Dream Cakes is known to the public as very delicious.
+        </p1>
+        
+        
+        <nav2>
+            <ul>
+                <li>Butter cake</li>
+                <li>Chocolate cake</li>
+                <li>Ribbon cake</li>
+                <li>Coffee cake</li>
+                <li>fruit cake</li>
+                <li>Red velvet cake</li>
+                <li>Gateaux cake</li>
+                <li>Birthday cake</li>
+                <li>Anniversary cake</li>
+                <li>Wedding cake</li>
+                <li>Christening cake</li>
+                <li>Cup cake</li>
+            </ul>    
+        </nav2> 
+        
+        <img id = "cakeshop01"src ="./Images/AboutUs/cakeshop02.jpg">
+        <p1>
+            Dream Cake Company can provide you with various types of cakes as mentioned above.
+            You can create the cake you want with the knowledge and you are also given the ability to customize the cake the way you want.
+            Most of the customers choose dream cakes brand because of the friendly reception we have.
+            The branches of dream cakes company are spread all over the country, so the customers have the ability to get dreams cakes very easily.
+            <br><br>
+            There is something really special about cake.<br>
+            Whether it is one you are making from scratch for a birthday party full of kindergartners, 
+            or yet another slice of unicorn cake marking a celebration, <br>
+            or even just a piece smuggled in between Netflix and chilling. <br>
+            The universal truth is that cake is bae.
+        </p1>
+        <img id = "cakeshop01"src ="./Images/AboutUs/cakeshop04.jpg">
+
+        </section>
+
+<!--        <section id ="cakes">
+            <div id ="cake">
+                <img src ="./Images/ButterCake.jpg">
+                <h4>Butter Cakes</h4>
+                <a href ="order.html">
+                <button> Order </button>
+                </a>
+            </div> 
+            
+        </section>-->
+    </body>
+</html>
